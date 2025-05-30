@@ -1,0 +1,33 @@
+{
+    "test_case": [
+      {
+        "input": ["eabcdzzzz", "dddzzzzzzzddeddabc"],
+        "expected": true
+      },
+      {
+        "input": ["abcd", "dddddddabc"],
+        "expected": true
+      },
+      {
+        "input": ["dddddddabc", "abcd"],
+        "expected": true
+      },
+      {
+        "input": ["eabcd", "dddddddabc"],
+        "expected": false
+      },
+      {
+        "input": ["abcd", "dddddddabcf"],
+        "expected": false
+      },
+      {
+        "input": ["eabcdzzzz", "dddzzzzzzzddddabc"],
+        "expected": false
+      },
+      {
+        "input": ["aabb", "aaccc"],
+        "expected": false
+      }
+    ]
+  }
+  

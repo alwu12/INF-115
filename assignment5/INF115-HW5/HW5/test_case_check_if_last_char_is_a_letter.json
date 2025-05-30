@@ -1,0 +1,14 @@
+{
+    "test_case": [
+      {"input": "apple", "expected": false},
+      {"input": "apple pi e", "expected": true},
+      {"input": "hello1", "expected": false},
+      {"input": "1234!", "expected": false},
+      {"input": "ends with space ", "expected": false},
+      {"input": "a", "expected": true},
+      {"input": "Z", "expected": true},
+      {"input": "", "expected": false},
+      {"input": "abc123", "expected": false},
+      {"input": "lastCharIsLetterA", "expected": false}
+    ]
+  }
